@@ -1,6 +1,29 @@
 /* Create your test CSS here */
 
-p {
+.special {
     color: red;
+  }
+  
+  p {
+    color: blue;
+    background-color: yellow;
+  }
+
+  .box {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.8turn);
+  }
+
+  body {
+    background-color: pink;
+  }
+  
+  @media (min-width: 30em) {
+    body {
+      background-color: blue;
+    }
   }
   
